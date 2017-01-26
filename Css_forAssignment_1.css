@@ -1,0 +1,18 @@
+h1 {
+  background-color: green;
+}
+.serif {
+  font-family: 'Suez One', serif;
+}
+.sans-serif {
+  color: blue;
+}
+.green {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.red {
+  color: red;
+}
