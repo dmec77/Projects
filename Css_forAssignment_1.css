@@ -1,5 +1,5 @@
 h1 {
-  background-color: green;
+  background-color: lightgreen;
 }
 .serif {
   font-family: 'Suez One', serif;
@@ -16,3 +16,61 @@ h1 {
 .red {
   color: red;
 }
+div {
+  border-style: double;
+  width: 500px;
+}
+.diamond {
+  padding: 40px 10px 10px 40px;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  background-color: #7FDBFF;
+   vertical-align: middle;
+  transform: rotate(-45deg);
+  transform-origin: 0 50%;
+  background-size: 150px 150px;
+    float: right;
+    font-family: Montserrat,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 150px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 0;
+    text-align: horizontal;
+    text-transform: normal;
+    width: 150px;
+
+}
+p.solid {border-style: solid;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgrey;
+}
+
+.social {
+    background-color: blue;
+}
+
+#link
