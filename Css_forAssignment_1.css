@@ -26,21 +26,23 @@ div {
   width: 150px;
   position: relative;
   background-color: #7FDBFF;
-   vertical-align: middle;
+  vertical-align: middle;
   transform: rotate(-45deg);
   transform-origin: 0 50%;
   background-size: 150px 150px;
-    float: right;
-    font-family: Montserrat,sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    height: 150px;
-    letter-spacing: 1px;
-    line-height: 25px;
-    margin-bottom: 0;
-    text-align: horizontal;
-    text-transform: normal;
-    width: 150px;
+  font-family: Montserrat,sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  height: 150px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: horizontal;
+  text-transform: normal;
+  width: 150px;
+  margin-top: 1px;
+  margin-right:
+  margin-bottom: 10px;
+  margin-left: 550px;
 
 }
 p.solid {border-style: solid;}
@@ -51,6 +53,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: pink;
+    font-size: 30px;
 }
 
 li {
@@ -73,4 +76,24 @@ li a:hover {
     background-color: blue;
 }
 
-#link
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+
+    .imgContainer{
+        width: 100%;
+    }
+
+}
+
+.image {
+    float: left;
+    width: 33%;
+    img {
+        width: 100%;
+        display: block;
+    }
+.imgContainer {
+
+}
+}
