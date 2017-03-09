@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="Css_forAssignment_1.css">
+    <title>My First Website</title>
+   </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="Tan_quote.jpg" class="size" alt="Tan Memories" style="height:200px;">
+          <img src="rehearsal_quote.jpg" class="size" alt="Rehearsal" style="height:200px;">
+          <img src="cast_quote.jpg" class="size" alt="Cast" style="height:200px;">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="apology_quote.jpg" class="size" alt="apology" style="width:200px;height:200px;">
+          <img src="days_quote.jpg" class="size" alt="days" style="width:200px;height:200px;">
+          <img src="shopping_quote.jpg" class="size" alt="shopping" style="width:200px;height:200px;">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="sleep_quote.png" class="size" alt="sleep" style="width:200px;height:200px;">
+          <img src="tact_quote.jpg" class="size"  alt="tact" style="width:200px;height:200px;">
+          <img src="thoughts_quote.jpg" class="size" alt="thoughts" style="width:200px;height:200px;">
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function(){
+          $(".size").click(function(){
+              $(".size").animate({
+                  left: '250px',
+                  width: '50%' ,
+                  height: '550px',
+                  width: '300px'
+              });
+          });
+      });
+      $(document).ready(function () {
+        var small={width: "200px",height: "200px"};
+        var large={width: "300px",height: "300px"};
+        var count=1;
+        $(".size").css(small).on('click',function () {
+            $(this).animate((count==1)?large:small);
+            count = 1-count;
+        });
+    });
+    </script>
+
+
+
+  </body>
+</html>
